@@ -1,0 +1,69 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "(your ascii)",
+    "color": {
+      "1": "#C1E1F5",
+      "2": "#9ACEEF",
+      "3": "#6DB9E8",
+      "4": "#4AA8E3",
+      "5": "#2295DD"
+    },
+    "padding": {
+      "top": 1,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "color": {
+        "user": "#C1E1F5",
+        "at": "#C1E1F5",
+        "host": "#C1E1F5"
+      }
+    },
+    "break",
+    {
+      "type": "host",
+      "key": " ",
+      "keyColor": "#9ACEEF"
+    },
+    {
+      "type": "cpu",
+      "key": " ",
+      "keyColor": "#6DB9E8"
+    },
+    {
+      "type": "cpuusage",
+      "key": "󱞩 ",
+      "keyColor": "#6DB9E8"
+    },
+    {
+      "type": "gpu",
+      "key": " ",
+      "keyColor": "#4AA8E3"
+    },
+    {
+      "type": "memory",
+      "key": " ",
+      "keyColor": "#2295DD",
+      "format": "{used} / {total} ({percentage})"
+    },
+    {
+      "type": "disk",
+      "key": " ",
+      "keyColor": "#1C7AB5"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}
